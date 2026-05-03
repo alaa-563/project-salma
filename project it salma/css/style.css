@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url('../images/sphinx6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+    / background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    direction: rtl;
+
+    text-align: center;
+    padding: 40px 20px;
+    color: #fff;
+}
+
+
+.main-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.85);
+
+    backdrop-filter: blur(10px);
+
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    color: #2c3e50;
+
+
+}
+
+
+.main-container>img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 15px;
+    border: 5px solid #d4a373;
+
+    margin-bottom: 25px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    text-shadow: 2px 2px 4px rgb(red, green, blue);
+}
+
+p {
+    line-height: 1.8;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+
+    border-radius: 10px;
+    border: 2px solid #d4a373;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+
+}
+
+
+video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    border: 2px solid #8b5e3c;
+}
